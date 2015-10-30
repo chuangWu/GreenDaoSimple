@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button
+    android:textAllCaps="false"
+    android:onClick="createTable"
+    android:text="createTable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+    <Button
+        android:textAllCaps="false"
+        android:onClick="queryTable"
+        android:text="queryTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:onClick="updateTable"
+        android:text="updateTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+        android:textAllCaps="false"
+        android:onClick="deleteTable"
+        android:text="deleteTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
